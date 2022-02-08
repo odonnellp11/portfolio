@@ -1,0 +1,170 @@
+body, html{
+ height: 100%;
+ margin: 0px;
+}
+body{
+   background-color: black;
+}
+
+nav li{
+   display: inline;
+   margin: 20px;
+
+}
+
+nav ul{
+   background-color: black;
+   margin: 0px;
+   padding: 20px;
+   text-align: center;
+}
+
+nav{
+   display: block;
+   color: white;
+   list-style-type: none;
+   width: 100%;
+   padding: 20px left 0px;
+}
+
+nav a{
+   color: silver;
+   text-decoration: none;
+}
+
+nav a:hover{
+   color: purple;
+}
+
+.hero-image{
+   background-image:url("../images/space.jpg");
+   height:25%;
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position:center;
+   position:relative;
+
+}
+
+.hero-text{
+   color: white;
+   text-align:center;
+   left: 50%;
+   transform:translate();
+}
+
+#main{
+   width: 75%;
+   float: right;
+   height: 100%;
+   padding-right: 20px;
+   padding-top: 20px;
+}
+
+#main-image{
+   width: 100%;
+   height: 100vh;
+   }
+
+
+#side{
+   width: 20%;
+   float: left;
+   height: 50%;
+   padding: 20px;
+}
+
+#profile-image{
+   width: 150px;
+   border-radius: 69%;
+   border: 5px solid black;
+}
+
+#profile{
+   text-align: center;
+}
+
+.side-articles ul{
+list-style-type: none;
+padding-right:20px;
+}
+
+#profile h1{
+   text-align: center
+}
+#profile h2{
+   display: inline;
+}
+
+#profile-details{
+   margin-right: 30px;
+   text-align: center;
+}
+
+.side-articles, .main-articles{
+   padding: 10px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+}
+
+.side-articles{
+   background-color: darkgray;
+   text-align: center;
+}
+.row {
+   display: flex;
+ }
+ 
+ .column {
+   flex: 33.33%;
+   padding: 5px;
+ }
+.main-articles{
+   background-color: lightgrey;
+   text-align: left;
+}
+
+ h1{
+   text-align: left;
+}
+form{
+   margin-top: 20px;
+   background-color: darkgrey;
+}
+
+textarea, input{
+   padding-left: 5px;
+   background-color: lightgrey;
+   width: 320px;
+   border-radius: 5px;
+   padding: 5px;
+   margin: 5px;
+   
+}
+
+.side-articles h1{
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+footer{
+   width: 100%;
+   background-color: black;
+   height: 5vh;
+   margin-top: 0px;
+}
+footer div{
+   text-align: center;
+   color: white;
+}
+
+main{
+   overflow: auto;
+}
+
+footer hr{
+   margin-top: 0px;
+   height: 12px;
+   border: 0px;
+   box-shadow: inset 0 12px -12px white;
+}
